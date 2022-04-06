@@ -7,3 +7,7 @@ function HomePage (){
 }
 
 export default HomePage
+
+function TesteAtt(){
+    return
+}
