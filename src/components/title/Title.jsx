@@ -5,10 +5,11 @@ const variavelConstante = 'Title'
 function Title (props) {
     return(
     <h1 className={styles.title}>
-        {props.children}
+        {props.text}
     </h1>
     )
 }
+
 
 export default Title
 
