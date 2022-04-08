@@ -2,10 +2,10 @@ import styles from './Title.module.css'
 
 const variavelConstante = 'Title'
 
-function Title (props) {
+function Title ({children}) {
     return(
     <h1 className={styles.title}>
-        {props.text}
+        {children}
     </h1>
     )
 }
